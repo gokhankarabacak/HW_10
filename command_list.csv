@@ -1,0 +1,129 @@
+    1  #!/bin/bash
+    2  vlc videoplayback.mp4 --sout=udp://192.168.17.255:1113 &
+    3  vlc "Y2Mate.is - 2.5 Hour Uncut View From Cargo Ship In 4K  Life At Sea-cat30PaExyo-480p-1649844880730.mp4" --sout=udp://192.168.17.255:1114 &
+    4  vlc -vvv udp://@:1111 &
+    5  vlc -vvv udp://@:1112
+    6  #!/bin/bash
+    7  vlc videoplayback.mp4 --sout=udp://192.168.17.255:1113 &
+    8  vlc "Y2Mate.is - 2.5 Hour Uncut View From Cargo Ship In 4K  Life At Sea-cat30PaExyo-480p-1649844880730.mp4" --sout=udp://192.168.17.255:1114 &
+    9  vlc -vvv udp://@:1111 &
+   10  vlc -vvv udp://@:1112
+   11  #!/bin/bash
+   12  vlc videoplayback.mp4 --sout=udp://192.168.17.255:1113 &
+   13  vlc "Y2Mate.is - 2.5 Hour Uncut View From Cargo Ship In 4K  Life At Sea-cat30PaExyo-480p-1649844880730.mp4" --sout=udp://192.168.17.255:1114 &
+   14  vlc -vvv udp://@:1111 &
+   15  vlc -vvv udp://@:1112
+   16  sleep 2
+   17  //cd /home/oes/Desktop/1715_radarV5/sketch_190118a/application.linux-arm64
+   18  cd C:/Users/R2D2/Desktop/radar/1715_radarV5/sketch_190118a/application.linux-arm64
+   19  ./sketch_190118a
+   20  sleep 2
+   21  //cd /home/oes/Desktop/1715_radarV5/sketch_190118a/application.linux-arm64
+   22  cd C:/Users/R2D2/Desktop/radar/1715_radarV5/sketch_190118a/application.linux-arm64
+   23  ./sketch_190118a
+   24  sleep 2
+   25  //cd /home/oes/Desktop/1715_radarV5/sketch_190118a/application.linux-arm64
+   26  cd C:/Users/R2D2/Desktop/radar/1715_radarV5/sketch_190118a/application.linux-arm64
+   27  ./sketch_190118a
+   28  sleep 2
+   29  //cd /home/oes/Desktop/1715_radarV5/sketch_190118a/application.linux-arm64
+   30  cd C:/Users/R2D2/Desktop/radar/1715_radarV5/sketch_190118a/application.linux-arm64
+   31  ./sketch_190118a
+   32  ls
+   33  exit
+   34  #ENTER DFU MODE
+   35  set -Eexuo pipefail
+   36  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   37  #ENTER DFU MODE
+   38  set -Eexuo pipefail
+   39  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   40  #!/usr/bin/bash
+   41  mkoctfile  -v -Wl,/home/mntmnt/Projects/projectadc/device-api/libPocketVnaApi_x64.so  pocketvna_octave.cc
+   42  if [ $? -ne 0 ]; then 	echo "-----FAILED TO mkoctfile"; 	exit 1; fi
+   43  #!/usr/bin/bash
+   44  mkoctfile  -v -Wl,/home/mntmnt/Projects/projectadc/device-api/libPocketVnaApi_x64.so  pocketvna_octave.cc
+   45  if [ $? -ne 0 ]; then 	echo "-----FAILED TO mkoctfile"; 	exit 1; fi
+   46  #ENTER DFU MODE
+   47  set -Eexuo pipefail
+   48  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   49  #ENTER DFU MODE
+   50  set -Eexuo pipefail
+   51  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   52  #!/usr/bin/bash
+   53  mkoctfile  -v -Wl,/home/mntmnt/Projects/projectadc/device-api/libPocketVnaApi_x64.so  pocketvna_octave.cc
+   54  if [ $? -ne 0 ]; then 	echo "-----FAILED TO mkoctfile"; 	exit 1; fi
+   55  #!/usr/bin/bash
+   56  mkoctfile  -v -Wl,/home/mntmnt/Projects/projectadc/device-api/libPocketVnaApi_x64.so  pocketvna_octave.cc
+   57  if [ $? -ne 0 ]; then 	echo "-----FAILED TO mkoctfile"; 	exit 1; fi
+   58  #ENTER DFU MODE
+   59  set -Eexuo pipefail
+   60  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   61  #ENTER DFU MODE
+   62  set -Eexuo pipefail
+   63  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   64  #ENTER DFU MODE
+   65  set -Eexuo pipefail
+   66  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   67  #ENTER DFU MODE
+   68  set -Eexuo pipefail
+   69  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   70  #ENTER DFU MODE
+   71  set -Eexuo pipefail
+   72  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   73  #ENTER DFU MODE
+   74  set -Eexuo pipefail
+   75  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   76  #ENTER DFU MODE
+   77  set -Eexuo pipefail
+   78  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   79  #ENTER DFU MODE
+   80  set -Eexuo pipefail
+   81  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   82  #ENTER DFU MODE
+   83  set -Eexuo pipefail
+   84  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   85  #ENTER DFU MODE
+   86  set -Eexuo pipefail
+   87  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   88  #ENTER DFU MODE
+   89  set -Eexuo pipefail
+   90  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   91  #ENTER DFU MODE
+   92  set -Eexuo pipefail
+   93  if [[ ${1+x} ]]; then  	./dfu-programmer atxmega32a4u  erase; 	./dfu-programmer atxmega32a4u  flash "$1"; 	./dfu-programmer atxmega32a4u  reset	; else 	echo "pass *.hex firmware file as 1st argument"; 	exit 1	; fi
+   94  #!/usr/bin/bash
+   95  mkoctfile  -v -Wl,/home/mntmnt/Projects/projectadc/device-api/libPocketVnaApi_x64.so  pocketvna_octave.cc
+   96  if [ $? -ne 0 ]; then 	echo "-----FAILED TO mkoctfile"; 	PAUSE; 	exit 1; fi
+   97  #!/usr/bin/bash
+   98  mkoctfile  -v -Wl,/home/mntmnt/Projects/projectadc/device-api/libPocketVnaApi_x64.so  pocketvna_octave.cc
+   99  if [ $? -ne 0 ]; then 	echo "-----FAILED TO mkoctfile"; 	exit 1; fi
+  100  cd desktop/HW10
+  101  cls
+  102  clear
+  103  git clone https://github.com/gokhankarabacak/HW_10.git
+  104  cd HW_10
+  105  touch text_ignore.txt
+  106  nano .gitignore
+  107  git status
+  108  git add .
+  109  git commit -m
+  110  git commit
+  111  git commit-m
+  112  git commit -m "Task1"
+  113  touch main_test.txt
+  114  git add .
+  115  git commit -m "Task2"
+  116  git branch develop
+  117  git checkout develop
+  118  touch develop_test.txt
+  119  git add .
+  120  git commit -m "Task3"
+  121  nano develop_test.txt
+  122  git statu
+  123  git status
+  124  git add .
+  125  git commit -m "Task3_step8"
+  126  git checkout main
+  127  git merge develop
+  128  git log
+  129  history > command_list.csv
